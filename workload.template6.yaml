@@ -932,4 +932,4 @@ Resources:
       Namespace: "spinnaker"
       # Kubernetes manifest URL
       Url: https://raw.githubusercontent.com/mcgonagle/dryrun/main/mysql.yml
-    DependsOn: "KubeManifestURLSpinSA"
+    DependsOn: "KubeManifestNGINXIngress"
